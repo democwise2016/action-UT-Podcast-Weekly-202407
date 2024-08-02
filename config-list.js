@@ -4,7 +4,6 @@ let feedList = [
   {
     title: '阿哲[哲週來尬電]',
     feedID: 'linzin-news2',
-    thumbnailBorderColor: true,
     homepageURL: 'https://www.youtube.com/channel/UC0oosHZ4k1o-zNT21gg5O7A',
     feedURL: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC0oosHZ4k1o-zNT21gg5O7A',
     itemFilters: [
@@ -18,7 +17,6 @@ let feedList = [
   {
     title: '斐姨所思【阿姨想知道】',
     feedID: 'fanamericantime-interview',
-    thumbnailBorderColor: true,
     homepageURL: 'https://www.youtube.com/channel/UC2VKL-DkRvXtWkfjMzkYvmw',
     feedURL: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC2VKL-DkRvXtWkfjMzkYvmw',
     itemFilters: [
@@ -63,7 +61,6 @@ let feedList = [
     title: '萊斯 新Game報',
     feedID: 'LiceMoo-GameNews',
     homepageURL: 'https://www.youtube.com/channel/UC9WiXJEyHMGRqL-__3FIBEw',
-    thumbnailBorderColor: true,
     itemFilters: [
       ItemFiltersPreset.between3minTo30Min,
       (item) => { return (item.title.indexOf('《新Game報') > -1) }
@@ -76,7 +73,6 @@ let feedList = [
     title: '大閒者 偷閒加油站',
     feedID: 'Idlers-GameNews',
     homepageURL: 'https://www.youtube.com/channel/UCU6nhA37pbvzw-JXhAB87Mg',
-    thumbnailBorderColor: true,
     itemFilters: [
       ItemFiltersPreset.between3minTo30Min,
       (item) => { return (item.title.indexOf('偷閒加油站') > -1) }
