@@ -56,7 +56,7 @@ let feedList = [
     feedID: 'bluepigeon0810',
     homepageURL: 'https://www.youtube.com/channel/UCUn77_F5A65HViL9OEvIpLw',
     itemFilters: ItemFiltersPreset.between3minTo30Min,
-  // },
+  },
   // {
   //   title: '萊斯 新Game報',
   //   feedID: 'LiceMoo-GameNews',
