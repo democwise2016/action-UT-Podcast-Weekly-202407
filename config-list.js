@@ -57,18 +57,18 @@ let feedList = [
     homepageURL: 'https://www.youtube.com/channel/UCUn77_F5A65HViL9OEvIpLw',
     itemFilters: ItemFiltersPreset.between3minTo30Min,
   },
-  {
-    title: '萊斯 新Game報',
-    feedID: 'LiceMoo-GameNews',
-    homepageURL: 'https://www.youtube.com/channel/UC9WiXJEyHMGRqL-__3FIBEw',
-    itemFilters: [
-      ItemFiltersPreset.between3minTo30Min,
-      (item) => { return (item.title.indexOf('《新Game報') > -1) }
-    ],
-    options: {
-      maxItems: 3
-    }
-  },
+  // {
+  //   title: '萊斯 新Game報',
+  //   feedID: 'LiceMoo-GameNews',
+  //   homepageURL: 'https://www.youtube.com/channel/UC9WiXJEyHMGRqL-__3FIBEw',
+  //   itemFilters: [
+  //     ItemFiltersPreset.between3minTo30Min,
+  //     (item) => { return (item.title.indexOf('新Game報') > -1) }
+  //   ],
+  //   options: {
+  //     maxItems: 3
+  //   }
+  // },
   {
     title: '大閒者 偷閒加油站',
     feedID: 'Idlers-GameNews',
