@@ -32,30 +32,45 @@ let feedList = [
     feedID: 'HiThisIsAchi',
     homepageURL: 'https://www.youtube.com/channel/UCyYGbBvicdjDvNEehOMEy4A',
     itemFilters: ItemFiltersPreset.between3minTo30Min,
+    options: {
+      maxItems: 10
+    }
   },
   {
     title: '叉雞說故事',
     feedID: 'bbqporkchicken',
     homepageURL: 'https://www.youtube.com/channel/UCB3pBfnruGVgbP1r5Ya2CEg',
     itemFilters: ItemFiltersPreset.between3minTo30Min,
+    options: {
+      maxItems: 10
+    }
   },
   {
     title: '異色檔案說故事',
     feedID: 'mystery2018',
     homepageURL: 'https://www.youtube.com/channel/UCVwlKAna1gU30r3s9je06lA',
     itemFilters: ItemFiltersPreset.between3minTo30Min,
+    options: {
+      maxItems: 10
+    }
   },
   {
     title: '井川一聊動畫',
     feedID: 'InokawaHajime',
     homepageURL: 'https://www.youtube.com/channel/UCcHVKeT_5Ta-gTa-sgooQxQ',
     itemFilters: ItemFiltersPreset.between3minTo30Min,
+    options: {
+      maxItems: 10
+    }
   },
   {
     title: '蒼藍鴿聊醫學',
     feedID: 'bluepigeon0810',
     homepageURL: 'https://www.youtube.com/channel/UCUn77_F5A65HViL9OEvIpLw',
     itemFilters: ItemFiltersPreset.between3minTo30Min,
+    options: {
+      maxItems: 10
+    }
   },
   // {
   //   title: '萊斯 新Game報',
@@ -86,6 +101,9 @@ let feedList = [
     feedID: 'otakumsvideo',
     homepageURL: 'https://www.youtube.com/channel/UCBOBS5RdHd2Owytoj4PqPqA',
     itemFilters: ItemFiltersPreset.between3minTo30Min,
+    options: {
+      maxItems: 10
+    }
   },
   {
     title: '四處觀察',
@@ -98,18 +116,27 @@ let feedList = [
     feedID: 'emmytw',
     homepageURL: 'https://www.youtube.com/channel/UCUkwvRrpvWkocNdk9qIpRSw',
     itemFilters: ItemFiltersPreset.between3minTo30Min,
+    options: {
+      maxItems: 10
+    }
   },
   {
     title: '好味營養師品瑄',
     feedID: 'dietitian_pink',
     homepageURL: 'https://www.youtube.com/channel/UCLwFOT4tHGaK9kqXXExhPFQ',
     itemFilters: ItemFiltersPreset.between3minTo30Min,
+    options: {
+      maxItems: 10
+    }
   },
   {
     title: '瑩真律師',
     feedID: 'LawyerAngela',
     homepageURL: 'https://www.youtube.com/channel/UCLzWMcpNlhHo0c0yOyWksvQ',
     itemFilters: ItemFiltersPreset.between3minTo30Min,
+    options: {
+      maxItems: 10
+    }
   },
   {
     title: '關鍵評論網：國際話題',
@@ -118,7 +145,10 @@ let feedList = [
     itemFilters: [
       ItemFiltersPreset.between3minTo30Min,
       (item) => { return ((item.title.indexOf('｜國際大風吹') > -1) || (item.title.indexOf('｜國際值日生') > -1)) }
-    ]
+    ],
+    options: {
+      maxItems: 10
+    }
   },
   // {
   //   title: '迷走大學 時事評論',
@@ -149,18 +179,27 @@ let feedList = [
     feedID: 'mynotebooks',
     homepageURL: 'https://www.youtube.com/channel/UCAS8QqEyGGH71xYgFzNSbuw',
     itemFilters: ItemFiltersPreset.between3minTo30Min,
+    options: {
+      maxItems: 10
+    }
   },
   {
     title: '卡提諾狂新聞',
     feedID: 'CrazyNews9487',
     homepageURL: 'https://www.youtube.com/playlist?list=PLH2b4YnNI7j13eD1KdpEV3t7VEWtRQlYY',
     itemFilters: ItemFiltersPreset.between3minTo30Min,
+    options: {
+      maxItems: 10
+    }
   },
   {
     title: '公視P#新聞實驗室',
     feedID: 'Ppsharp_newslab',
     homepageURL: 'https://www.youtube.com/channel/UCMDcOT4z7GS1SRGG2g7z43g',
     itemFilters: ItemFiltersPreset.between3minTo30Min,
+    options: {
+      maxItems: 10
+    }
   },
 ]
 
