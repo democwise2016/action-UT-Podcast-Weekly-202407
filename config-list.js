@@ -18,6 +18,7 @@ let feedList = [
     title: '斐姨所思【阿姨想知道】',
     feedID: 'fanamericantime-interview',
     homepageURL: 'https://www.youtube.com/channel/UC2VKL-DkRvXtWkfjMzkYvmw',
+    thumbnailBorderColor: true,
     feedURL: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC2VKL-DkRvXtWkfjMzkYvmw',
     itemFilters: [
       ItemFiltersPreset.between30minTo180Min,
@@ -205,6 +206,7 @@ let feedList = [
     title: '志祺七七：強者我朋友',
     feedID: 'shasha77-interview',
     homepageURL: 'https://www.youtube.com/channel/UCiWXd0nmBjlKROwzMyPV-Nw',
+    thumbnailBorderColor: true,
     itemFilters: [
       ItemFiltersPreset.between3minTo30Min,
       (item) => { return (item.title.endsWith('｜志祺七七')) },
@@ -219,6 +221,7 @@ let feedList = [
   {
     title: '志祺七七：今天不讀稿',
     feedID: 'shasha77-talk',
+    thumbnailBorderColor: true,
     homepageURL: 'https://www.youtube.com/channel/UCiWXd0nmBjlKROwzMyPV-Nw',
     itemFilters: [
       ItemFiltersPreset.between3minTo30Min,
