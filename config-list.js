@@ -201,6 +201,30 @@ let feedList = [
       maxItems: 10
     }
   },
+  {
+    title: '志祺七七：強者我朋友',
+    feedID: 'shasha77-interview',
+    homepageURL: 'https://www.youtube.com/channel/UCiWXd0nmBjlKROwzMyPV-Nw',
+    itemFilters: [
+      ItemFiltersPreset.between3minTo30Min,
+      (item) => { return (item.title.endsWith('｜志祺七七')) },
+      (item) => { return (item.title.indexOf('《強者我朋友》') > -1) },
+      (item) => { return (item.title.indexOf(' ft. ') > -1) },
+      (item) => { return (item.title.indexOf('《今天不讀稿》') === -1) },
+    ] // 霸道總裁攀岩開會、網紅天天搞小團體...《絕世網紅》劇情超浮誇？《 志祺今天不讀稿 》EP010｜志祺七七
+  },
+  {
+    title: '志祺七七：今天不讀稿',
+    feedID: 'shasha77-talk',
+    homepageURL: 'https://www.youtube.com/channel/UCiWXd0nmBjlKROwzMyPV-Nw',
+    itemFilters: [
+      ItemFiltersPreset.between3minTo30Min,
+      (item) => { return (item.title.endsWith('｜志祺七七')) },
+      (item) => { return (item.title.indexOf('《強者我朋友》') === -1) },
+      (item) => { return (item.title.indexOf(' ft. ') === -1) },
+      (item) => { return (item.title.indexOf('《今天不讀稿》') > -1) },
+    ] // 霸道總裁攀岩開會、網紅天天搞小團體...《絕世網紅》劇情超浮誇？《 志祺今天不讀稿 》EP010｜志祺七七
+  },
 ]
 
 // ---------------------------------------
