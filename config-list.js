@@ -193,15 +193,15 @@ let feedList = [
       maxItems: 10
     }
   },
-  {
-    title: '公視P#新聞實驗室',
-    feedID: 'Ppsharp_newslab',
-    homepageURL: 'https://www.youtube.com/channel/UCMDcOT4z7GS1SRGG2g7z43g',
-    itemFilters: ItemFiltersPreset.between3minTo30Min,
-    options: {
-      maxItems: 10
-    }
-  },
+  // {
+  //   title: '公視P#新聞實驗室',
+  //   feedID: 'Ppsharp_newslab',
+  //   homepageURL: 'https://www.youtube.com/channel/UCMDcOT4z7GS1SRGG2g7z43g',
+  //   itemFilters: ItemFiltersPreset.between3minTo30Min,
+  //   options: {
+  //     maxItems: 10
+  //   }
+  // },
   // {
   //   title: '志祺七七：強者我朋友',
   //   feedID: 'shasha77-interview',
