@@ -211,7 +211,10 @@ let feedList = [
       (item) => { return (item.title.indexOf('《強者我朋友》') > -1) },
       (item) => { return (item.title.indexOf(' ft. ') > -1) },
       (item) => { return (item.title.indexOf('《今天不讀稿》') === -1) },
-    ] // 霸道總裁攀岩開會、網紅天天搞小團體...《絕世網紅》劇情超浮誇？《 志祺今天不讀稿 》EP010｜志祺七七
+    ], // 霸道總裁攀岩開會、網紅天天搞小團體...《絕世網紅》劇情超浮誇？《 志祺今天不讀稿 》EP010｜志祺七七
+    options: {
+      maxItems: 10
+    }
   },
   {
     title: '志祺七七：今天不讀稿',
@@ -223,7 +226,10 @@ let feedList = [
       (item) => { return (item.title.indexOf('《強者我朋友》') === -1) },
       (item) => { return (item.title.indexOf(' ft. ') === -1) },
       (item) => { return (item.title.indexOf('《今天不讀稿》') > -1) },
-    ] // 霸道總裁攀岩開會、網紅天天搞小團體...《絕世網紅》劇情超浮誇？《 志祺今天不讀稿 》EP010｜志祺七七
+    ], // 霸道總裁攀岩開會、網紅天天搞小團體...《絕世網紅》劇情超浮誇？《 志祺今天不讀稿 》EP010｜志祺七七
+    options: {
+      maxItems: 10
+    }
   },
 ]
 
