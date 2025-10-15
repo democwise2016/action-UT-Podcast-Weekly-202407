@@ -20,7 +20,7 @@ let feedList = [
     homepageURL: 'https://www.youtube.com/channel/UC2VKL-DkRvXtWkfjMzkYvmw',
     feedURL: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC2VKL-DkRvXtWkfjMzkYvmw',
     itemFilters: [
-      ItemFiltersPreset.between10minTo60Min,
+      ItemFiltersPreset.between30minTo180Min,
       (item) => { return (item.title.indexOf('斐姨所思【阿姨想知道】') > -1) },
     ],
     options: {
