@@ -163,18 +163,24 @@ let feedList = [
   //     maxItems: 5
   //   }
   // },
-  {
-    title: '迷走大學 迷大Jo報',
-    feedID: 'meisouniv-weekly-news',
-    homepageURL: 'https://www.youtube.com/channel/UCiCOKR_WkqZuYN9fpjWqnzg',
-    itemFilters: [
-      ItemFiltersPreset.between30minTo180Min,
-      (item) => { return (item.title.indexOf('【迷大Jo報】') > -1 || item.title.indexOf('【時事閒聊】') > -1 || item.title.indexOf('【走漏消息') > -1) }
-    ],
-    options: {
-      maxItems: 3
-    }
-  },
+  // {
+  //   title: '迷走大學 迷大Jo報',
+  //   feedID: 'meisouniv-weekly-news',
+  //   homepageURL: 'https://www.youtube.com/channel/UCiCOKR_WkqZuYN9fpjWqnzg',
+  //   itemFilters: [
+  //     ItemFiltersPreset.between30minTo180Min,
+  //     (item) => { return (item.title.indexOf('【迷大Jo報】') > -1 
+  //                         || item.title.indexOf('【時事閒聊】') > -1 
+  //                         || item.title.indexOf('【走漏消息') > -1 
+  //                         || item.title.indexOf('【今天認真講') > -1
+  //                         || item.title.indexOf('【這個不能講') > -1
+  //                         || item.title.indexOf('【匪情研究') > -1
+  //                ) }
+  //   ],
+  //   options: {
+  //     maxItems: 3
+  //   }
+  // },
   // {
   //   title: '我的學習筆記',
   //   feedID: 'mynotebooks',
@@ -184,15 +190,15 @@ let feedList = [
   //     maxItems: 10
   //   }
   // },
-  {
-    title: '卡提諾狂新聞',
-    feedID: 'CrazyNews9487',
-    homepageURL: 'https://www.youtube.com/playlist?list=PLH2b4YnNI7j13eD1KdpEV3t7VEWtRQlYY',
-    itemFilters: ItemFiltersPreset.between3minTo30Min,
-    options: {
-      maxItems: 10
-    }
-  },
+  // {
+  //   title: '卡提諾狂新聞',
+  //   feedID: 'CrazyNews9487',
+  //   homepageURL: 'https://www.youtube.com/playlist?list=PLH2b4YnNI7j13eD1KdpEV3t7VEWtRQlYY',
+  //   itemFilters: ItemFiltersPreset.between3minTo30Min,
+  //   options: {
+  //     maxItems: 10
+  //   }
+  // },
   // {
   //   title: '公視P#新聞實驗室',
   //   feedID: 'Ppsharp_newslab',
